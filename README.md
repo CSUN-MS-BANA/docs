@@ -3,10 +3,11 @@ This folder contains all instructions for the **Culminating Project Progress Rep
 ## Contents:
 - `github_submission_instructions.md`: Steps for submitting reports to GitHub.
 - `weekly_progress_report_template.md`: Template for the weekly progress report.
+- week2_instructions.md: Week 2's assigned tasks.
 
 ## How to Use:
 1. Read `github_submission_instructions.md` before submitting.
-2. Copy `weekly_progress_report_template.md` each week, fill it out, and upload it to GitHub.
+2. Copy `weekly_progress_report_template.md` each week, fill it out and upload it to GitHub.
 3. Follow the submission steps to ensure your report is correctly tracked.
 
 ---
