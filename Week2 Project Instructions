@@ -1,0 +1,102 @@
+Culminating Project Week 2 Instructions
+**CSUN MS BANA 698 – Spring 2025**  
+📌 **Project Title:** Exploring World Bank Data & ER Model Design
+
+---
+
+## 📍 Objective
+This step aims to explore World Bank datasets, design an Entity-Relationship (ER) model, and refine the database schema to support meaningful research questions.
+
+🔗 **Link to World Bank Datasets:** [World Bank Databases](https://databank.worldbank.org/databases)
+
+---
+
+## 📍 Step 1: Select 3 Indicators
+Each group should select three (3) indicators from at least one of the following World Bank databases:
+
+1. **World Development Indicators (WDI)** – Economy, education, environment, etc.
+2. **International Debt Statistics** – Debt-related financial data.
+3. **Global Financial Development Database** – Financial systems and stability.
+4. **Enterprise Surveys** – Business environments worldwide.
+5. **Climate Change Knowledge Portal** – Environmental and climate-related data.
+
+📌 **Example indicators:**  
+- From WDI: **GDP per capita, Literacy Rate, CO₂ Emissions**
+- From International Debt Statistics: **External Debt, Foreign Direct Investment (FDI), Remittances**
+- From Enterprise Surveys: **Business Growth, Access to Finance, Trade Regulations**
+
+Each group should **document the source** of their selected indicators and briefly describe each indicator.
+
+---
+
+## 📍 Step 2: Develop an ER Model
+- Identify **entities, attributes, and relationships** for the selected indicators.
+- Use **ERD tools** like **Lucidchart, Draw.io, or MySQL Workbench** to create an **ER Diagram**.
+- Include **Primary Keys (PKs) and Foreign Keys (FKs)** where necessary.
+
+📌 **Example ER Model Structure:**
+
+| **Entity** | **Attributes** |
+|-----------|--------------|
+| **Country** | Country_ID (PK), Name, Region |
+| **Indicator** | Indicator_ID (PK), Name, Description, Source |
+| **Data_Record** | Record_ID (PK), Country_ID (FK), Indicator_ID (FK), Year, Value |
+
+✅ **Submission Requirements:**
+- **ER Diagram** (as .png or .pdf)
+- **Short write-up** explaining the model
+
+---
+
+## 📍 Step 3: Select 20 Databases with 30+ Indicators
+- Expand the project scope by selecting **20 World Bank datasets** with at least **30 indicators**.
+- This will help **refine the database schema** and prepare for deeper research.
+
+📌 **Why?** This ensures a richer dataset for structuring queries and analysis.
+
+---
+
+## 📍 Step 4: Refine Database Schema & Form Research Questions
+- Adjust the **ER model** based on the additional datasets and indicators.
+- Develop at least **three (3) research questions** that the database can help answer.
+
+📌 **Example Research Questions:**
+- How does education expenditure impact GDP growth?
+- What is the relationship between CO₂ emissions and economic development?
+- How does the debt-to-GDP ratio vary across countries?
+
+🔹 **Each group must generate at least 60 research questions** based on their selected datasets and indicators.
+
+📌 **Why?**
+- This will help refine the research focus.
+- The questions will later be filtered into a **smaller, well-defined set**.
+
+📌 **Guidelines for Writing Research Questions:**
+- **Comparative Questions:** How does education expenditure impact GDP growth across different countries?
+- **Trend Analysis:** How has external debt changed over the last 20 years for developing countries?
+- **Correlation-Based Questions:** What is the relationship between CO₂ emissions and economic development?
+- **Predictive Questions:** Can we predict unemployment rates based on past economic indicators?
+
+🔹 **Each group must generate at least 20 research questions using a combination of multiple datasets**, which allows for deeper insights and more comprehensive analysis.
+
+---
+
+## 📍 Step 5: Submit via GitHub Classroom
+Each group must upload their results to their assigned GitHub repository at:
+
+🔗 **GitHub Classroom – CSUN MS BANA 698 Spring 2025**
+
+### ✅ **How to Submit**
+1. **Create a folder** in your repository and name it:
+   📁 `Week 1`
+2. **Upload the following files:**
+   - **ER Model Diagram** (`ER_Model.png` or `.pdf`)
+   - **ER Model Description** (`README.md` or `.docx`)
+     - Explanation of entities, relationships, and attributes
+   - **List of Selected 3 Indicators** (`indicators.txt` or `.md`)
+   - **List of Research Questions**
+3. **Commit & Push Your Changes to GitHub**
+   - Ensure **all group members** have access.
+   - Submit **before the deadline**.
+
+📌 **Deadline: [Monday, Feb 10th by Noon]**
