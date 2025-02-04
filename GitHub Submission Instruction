@@ -1,0 +1,52 @@
+# Instructions for Submitting the Weekly Progress Report to GitHub
+
+## Step 1: Clone or Navigate to Your Group's Repository
+If you haven't already cloned your repository, use the following command:
+```bash
+git clone <your-repository-url>
+```
+Navigate to your repository folder:
+```bash
+cd <your-repository-folder>
+```
+
+## Step 2: Create or Update the Progress Report
+Ensure you have the latest version of the repository:
+```bash
+git pull origin main
+```
+Create or edit the **weekly_progress_report.md** file using a text editor or terminal:
+```bash
+nano weekly_progress_report.md
+```
+Copy and paste the template provided, then fill in the details.
+
+## Step 3: Stage the Changes
+After editing, save the file and add it to the staging area:
+```bash
+git add weekly_progress_report.md
+```
+
+## Step 4: Commit the Changes
+Commit the file with a meaningful message:
+```bash
+git commit -m "Added weekly progress report for [Week X]"
+```
+
+## Step 5: Push the Changes to GitHub
+Push the committed file to the repository:
+```bash
+git push origin main
+```
+
+## Step 6: Verify Submission
+Go to your GitHub repository in a web browser and check that **weekly_progress_report.md** has been updated successfully.
+
+---
+
+### Notes:
+- Ensure you are working on the correct branch if your team is using multiple branches.
+- If you encounter issues, use `git status` to check changes and `git log` to view commit history.
+- Coordinate with your team to avoid merge conflicts.
+
+Happy Coding! 🚀
