@@ -1,0 +1,106 @@
+Culminating Project: Data-Driven Insights on Economic Growth, Public Debt, and Social Development
+Objective:
+This culminating project will guide students in exploring the relationship between economic growth, public debt, and social development by designing a database system, implementing it using SQLite3, and applying various analytical methods, including Multiple Linear Regression (MLR), Classification, Clustering, Neural Networks, Hypothesis Testing, and Time Series Analysis.
+Students can either select from predefined research questions or formulate similar questions based on their selected entities and datasets while ensuring they apply the required analytical methods.
+________________________________________
+
+Step 1: Data Collection (Due: Feb 17th By Noon)
+Students must download data for 2021-2023 across all countries from the following sources:
+1.	World Development Indicators (WDI) – Economic, social, and environmental indicators.
+2.	Statistical Indicators – Macroeconomic and trade statistics.
+3.	Quarterly Public Sector Debt (QPSD) – Public debt and fiscal performance.
+
+________________________________________
+
+Step 2: Database Design & Implementation (Due: Feb 17th By Noon)
+
+1.	Define Database Entities and Attributes
+o	Countries Table (Country ID, Name, Region, Income Level)
+o	Economic Indicators Table (GDP, Inflation Rate, Trade Balance, Foreign Direct Investment (FDI), Government Spending) - from WDI
+o	Social Indicators Table (Life Expectancy, Literacy Rate, Poverty Rate, Unemployment Rate, Access to Clean Water) - from WDI
+o	Public Debt Indicators Table (Total Government Debt, Debt-to-GDP Ratio, Interest Payments on Debt, External Debt Stocks) - from QPSD
+o	Environmental Indicators Table (CO₂ Emissions, Renewable Energy Consumption, Access to Electricity, Forest Area) - from WDI
+o	Statistical Indicators Table (Money Supply (M2), Exchange Rates) - from Statistical Indicators
+Students can choose additional entities based on available data, ensuring logical relationships and normalization principles.
+
+2.	Design an ERD (Entity-Relationship Diagram)
+o	Identify primary and foreign keys.
+o	Define relationships between entities.
+o	Apply normalization principles.
+
+3.	Implement the Database in SQLite3
+o	Create tables using SQL scripts.
+o	Populate tables with collected data.
+o	Write SQL queries to retrieve relevant information.
+
+________________________________________
+
+Step 3: Data Cleaning & Preprocessing (Due: Feb 24th By Noon)
+•	Handle missing values appropriately.
+•	Standardize numerical values where necessary.
+•	Encode categorical variables for compatibility with machine learning models.
+•	Conduct a series of descriptive statistics and data visualizations based on the data types.
+
+________________________________________
+
+Step 4: Research Questions & Analysis Methods (Due: March 10th By Noon)
+Students must either select from the provided research questions or, based on their selected entities, formulate similar research questions ensuring alignment with their dataset.
+A. Time Series Analysis
+1.	How do inflation and GDP growth trends evolve over time for different regions?
+2.	Can time series forecasting models predict future public debt levels based on historical data?
+B. Hypothesis Testing - Statistical Comparisons
+3.	Is there a significant difference in GDP growth rates between high-debt and low-debt countries? (T-Test)
+4.	Do developing and developed countries differ significantly in public debt levels? (T-Test)
+5.	Is there a significant association between a country's income level and its ability to manage debt? (Chi-Square Test)
+6.	Does government spending on social services vary significantly across income levels? (F-Test)
+7.	Is inflation significantly higher in countries with high external debt? (T-Test)
+8.	Is there a relationship between trade openness and economic growth levels? (Chi-Square Test)
+C. Multiple Linear Regression (MLR) - Predicting Outcomes
+9.	How do inflation, trade balance, and government spending impact GDP growth?
+10.	What are the main drivers of a country’s foreign direct investment (FDI) inflows?
+11.	How does public debt influence a country’s economic growth?
+12.	Does government expenditure on education and healthcare impact life expectancy?
+13.	What factors determine a country's inflation rate?
+D. Classification - Categorizing Countries Based on Economic & Debt Factors
+14.	Based on economic indicators, can we classify countries into high-growth vs. low-growth? (Logistic Regression)
+15.	Which countries are likely to default on public debt? (Random Forest)
+16.	Based on social and financial indicators, can we classify countries into developed, emerging, and developing economies? (Decision Tree)
+17.	Is there a relationship between a country’s debt-to-GDP ratio and its ability to sustain long-term economic growth? (Naïve Bayes)
+18.	Can we predict whether a country’s poverty rate is above or below a certain threshold? (KNN)
+E. Clustering - Identifying Economic & Public Debt Patterns
+19.	Are there distinct clusters of countries based on economic growth, debt levels, and social development? (K-Means Clustering)
+F. Neural Networks - Deep Learning for Economic Forecasting
+20.	Can a neural network model predict GDP growth more accurately than traditional regression models?
+21.	Can a neural network predict a country's risk of debt distress based on past economic indicators?
+
+________________________________________
+
+Step 5: Abstract Submission (Due March 16th By Noon)
+Students must submit an abstract summarizing their research objectives and methodology by March 16th. 
+
+Note: The final approved version should be submitted to Grad studies by March 30th.
+
+________________________________________
+
+Step 6: Full Analysis (Due:  April 14th by Noon)
+The full analysis and report must be completed by April 14th.
+
+________________________________________
+
+Step 7: Final Presentation (Due: April 21st By Noon)
+Students will present their findings to a panel.
+
+Final Deliverables
+Students must submit: 
+✅ SQLite3 Database File with structured tables, , uploaded to GitHub. 
+✅ SQL Queries used for data extraction, , uploaded to GitHub. 
+ ✅ Python Code, uploaded to GitHub.
+✅ Weekly progress reports submitted per deadlines. 
+✅ Data Visualizations. 
+✅ Final Report following research paper format. 
+✅ 10-minute Presentation covering:
+•	Research question(s) & motivation.
+•	Data insights.
+•	Methods applied.
+•	Key results & policy implications.
+
